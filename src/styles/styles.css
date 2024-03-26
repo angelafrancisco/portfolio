@@ -1,0 +1,77 @@
+:root {
+  --pink-light: #FFE6E6;
+  --pink: #E1AFD1;
+  --purple-light: #AD88C6;
+  --purple: #7469B6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: var(--pink-light);
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.link {
+  color: var(--purple);
+  font-weight: 600;
+}
+.link:hover {
+  text-decoration: none;
+  font-style: italic;
+  background: var(--pink);
+}
+.button {
+  background-color: var(--purple-light);
+  color: var(--pink-light);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px var(--purple);
+  min-width: 150px;
+  min-height:50px;
+  position: relative;
+  transition: 0.3s ease-in-out 0s;
+  top: 0;
+  left: 0;
+}
+
+.button:hover {
+  box-shadow: 1px 1px var(--purple);
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+}
+
+.name-header {
+  font-size: 60px;
+}
+.header {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.section-container {
+  border: 3px solid var(--purple);
+  border-radius: 20px;
+  width: 500px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.section-container-bar {
+  height: 30px;
+  width: 100%;
+  border-bottom: 3px solid var(--purple);
+  background-color: var(--purple-light);
+}
+.container-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px 0;
+}
