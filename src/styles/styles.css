@@ -16,7 +16,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 .link {
   color: var(--purple);
@@ -30,7 +30,8 @@ main {
 .button {
   background-color: var(--purple-light);
   color: var(--pink-light);
-  border: none;
+  font-weight: 600;
+  border: 2px solid var(--purple);
   border-radius: 10px;
   box-shadow: 5px 5px var(--purple);
   min-width: 150px;
@@ -50,6 +51,7 @@ main {
 
 .name-header {
   font-size: 60px;
+  margin-top: 50px;
 }
 .header {
   font-size: 40px;
@@ -74,4 +76,16 @@ main {
   display: flex;
   flex-direction: column;
   gap: 30px 0;
+}
+
+.scallop-border-box {
+  margin: 50px 0;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  mask: linear-gradient(#000 0 0) 50%/calc(100% - 75px) calc(100% - 75px) no-repeat,
+    radial-gradient(farthest-side, #000 100%, #0000) 0 0/100px 100px round;
+  aspect-ratio: 1;
+  background-color: var(--purple);
 }

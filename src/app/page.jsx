@@ -6,10 +6,16 @@ const Home = () => {
       <div>
         <h1 className="name-header">angela francisco</h1>
       </div>
-
+      <div className="scallop-border-box">
+        <img 
+          src="/about-me-photo.jpeg" 
+          alt="About Me Photo"
+          width={300} 
+          height={300}
+        />
+      </div>
       <div className="section-container">
         <div className="section-container-bar"></div>
-
         <div className="container-content">
           <h2 className="header">section header</h2>
           <p>Welcome to my website.</p>
@@ -22,7 +28,6 @@ const Home = () => {
             <button className="button">Button</button>
           </div>
         </div>
-
       </div>
     </main>
   );
