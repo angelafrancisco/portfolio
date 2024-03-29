@@ -1,10 +1,10 @@
-const AboutMe = ()=> {
+const WorkExperience = () => {
   return (
     <div className="section-container">
         <div className="section-container-bar"></div>
         <div className="container-content">
-          <h2 className="section-header">about me</h2>
-          <p>Hello!! Welcome to my website.</p>
+          <h2 className="section-header">my work</h2>
+          <p>Examples of my work experience.</p>
           <p>Here's some text about me that is an example of how the longer paragraph font styles will look. What's next? Who knows!</p>
           <a 
             href="https//www.google.com" 
@@ -18,4 +18,4 @@ const AboutMe = ()=> {
   );
 };
 
-export default AboutMe;
+export default WorkExperience;

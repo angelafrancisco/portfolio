@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
 :root {
   --pink-light: #FFE6E6;
   --pink: #E1AFD1;
@@ -9,24 +11,42 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background: var(--pink-light);
 }
+
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
 }
+
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: var(--purple-light);
+  bottom: 0;
+  margin-top: 50px;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
 .link {
   color: var(--purple);
   font-weight: 600;
 }
+
 .link:hover {
   text-decoration: none;
   font-style: italic;
   background: var(--pink);
 }
+
 .button {
   background-color: var(--purple-light);
   color: var(--pink-light);
@@ -50,27 +70,31 @@ main {
 }
 
 .name-header {
-  font-size: 60px;
-  margin-top: 50px;
+  font-family: "Borel", cursive;
+  font-size: 80px;
+  margin-top: 100px;
 }
-.header {
-  font-size: 40px;
-  font-weight: 800;
+
+.section-header {
+  font-family: "Borel", cursive;
+  font-size: 50px;
 }
 
 .section-container {
   border: 3px solid var(--purple);
   border-radius: 20px;
-  width: 500px;
+  width: 600px;
   overflow: hidden;
   margin-top: 50px;
 }
+
 .section-container-bar {
   height: 30px;
   width: 100%;
   border-bottom: 3px solid var(--purple);
   background-color: var(--purple-light);
 }
+
 .container-content {
   padding: 20px;
   display: flex;
@@ -80,12 +104,22 @@ main {
 
 .scallop-border-box {
   margin: 50px 0;
-  width: 500px;
+  width: 450px;
   display: flex;
   align-items: center;
   justify-content: center;
   mask: linear-gradient(#000 0 0) 50%/calc(100% - 75px) calc(100% - 75px) no-repeat,
     radial-gradient(farthest-side, #000 100%, #0000) 0 0/100px 100px round;
   aspect-ratio: 1;
-  background-color: var(--purple);
+  background-color: var(--purple-light);
+  position: relative;
+  overflow: visible;
 }
+
+/* .scallop-border-box-shadow {
+  width: 450px;
+  height: 450px;
+  mask: linear-gradient(#000 0 0) 50%/calc(100% - 75px) calc(100% - 75px) no-repeat,
+    radial-gradient(farthest-side, #000 100%, #0000) 0 0/100px 100px round;
+  background-color: var(--purple);
+} */

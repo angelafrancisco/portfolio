@@ -1,4 +1,5 @@
 import "../styles/styles.css";
+import { Handjet } from 'next/font/google/'
 
 export const metadata = {
   title: "Angela Francisco",

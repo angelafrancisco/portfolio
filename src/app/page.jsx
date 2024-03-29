@@ -1,4 +1,7 @@
 import "../styles/styles.css";
+import AboutMe from "@/components/AboutMe";
+import ContactFooter from "@/components/Footer";
+import WorkExperience from "@/components/WorkExperience";
 
 const Home = () => {
   return (
@@ -8,27 +11,15 @@ const Home = () => {
       </div>
       <div className="scallop-border-box">
         <img 
-          src="/about-me-photo.jpeg" 
+          src="/about-me-photo.png"
           alt="About Me Photo"
           width={300} 
           height={300}
         />
       </div>
-      <div className="section-container">
-        <div className="section-container-bar"></div>
-        <div className="container-content">
-          <h2 className="header">section header</h2>
-          <p>Welcome to my website.</p>
-          <p>Here's some text about me that is an example of how the longer paragraph font styles will look. What's next? Who knows!</p>
-          <a 
-            href="https//www.google.com" 
-            className="link"
-            >Link example</a>
-          <div>
-            <button className="button">Button</button>
-          </div>
-        </div>
-      </div>
+      <AboutMe />
+      <WorkExperience />
+      <ContactFooter />
     </main>
   );
 };
