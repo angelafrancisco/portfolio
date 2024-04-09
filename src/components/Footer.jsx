@@ -5,9 +5,9 @@ const ContactFooter = ()=>{
       <div className="container-content">
         <p>Let's connect!</p>
         <ul>
-          <li>email</li>
-          <li>linkedin</li>
-          <li>github</li>
+          <li className="link">email</li>
+          <li className="link">linkedin</li>
+          <li className="link">github</li>
         </ul>
       </div>
     </footer>
