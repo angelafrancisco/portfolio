@@ -1,6 +1,6 @@
 const ContactFooter = ()=>{
   return (
-    <footer>
+    <footer id="contact-me">
       <h2 className="section-header">contact me</h2>
       <div className="container-content">
         <p>Let's connect!</p>
