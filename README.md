@@ -29,14 +29,13 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Deployed on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This Next.js app is deployed on the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js. Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Portfolio Credits
 
-## Attributes
-
-- [Icons, arrow by Freepik - Flaticon](https://www.flaticon.com/free-icons/)
-- [Cursor from cursors-4u](https://www.cursors-4u.com/cursor/2011/12/01/light-purple-pointer-2.html)
-- [Laptop Animation from Lottie](https://lottiefiles.com/motionpixels)
+- Color pallete: [Color Hunt](https://colorhunt.co/palette/ffe6e6e1afd1ad88c67469b6)
+- Arrow Image: [Freepik - Flaticon](https://www.flaticon.com/free-icons/)
+- Cursor: [cursors-4u](https://www.cursors-4u.com/cursor/2011/12/01/light-purple-pointer-2.html)
+- Animation: [Lottie files](https://lottiefiles.com/motionpixels)
