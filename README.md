@@ -37,4 +37,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Attributes
 
-- [Cloud icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/cloud)
+- [Icons, arrow by Freepik - Flaticon](https://www.flaticon.com/free-icons/)
+- [Cursor from cursors-4u](https://www.cursors-4u.com/cursor/2011/12/01/light-purple-pointer-2.html)
+- [Laptop Animation from Lottie](https://lottiefiles.com/motionpixels)

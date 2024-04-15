@@ -7,7 +7,11 @@ const WorkExperience = () => {
         <div className="work-section-wrapper">
           <div className="work-section">
             <p>
-              <a href="https://www.useroam.io/" className="link">
+              <a
+                href="https://www.useroam.io/"
+                target="_blank"
+                className="link"
+              >
                 Roam
               </a>{" "}
               | Software Engineer, Intern
@@ -42,7 +46,11 @@ const WorkExperience = () => {
           <hr className="horizontal-line"></hr>
           <div className="work-section">
             <p>
-              <a href="https://www.mozilla.org" className="link">
+              <a
+                href="https://www.mozilla.org"
+                target="_blank"
+                className="link"
+              >
                 Mozilla
               </a>{" "}
               | Software Engineer, Open-Source Contributor
@@ -69,7 +77,11 @@ const WorkExperience = () => {
           <hr className="horizontal-line"></hr>
           <div className="work-section">
             <p>
-              <a href="https://www.oregonfoodbank.org/" className="link">
+              <a
+                href="https://www.oregonfoodbank.org/"
+                target="_blank"
+                className="link"
+              >
                 Oregon Food Bank
               </a>{" "}
               | Database & Systems Asst. Manager
