@@ -171,6 +171,8 @@ footer .contact-links {
 .section-header {
   font-family: "Borel", cursive;
   font-size: 50px;
+  line-height: 50px;
+  padding-top: 20px;
 }
 
 .header-container {
