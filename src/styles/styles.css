@@ -256,6 +256,6 @@ footer .contact-links {
 
 .project-image {
   width: 300px;
-  height: auto;
+  height: 100%;
   border-radius: 5px;
 }

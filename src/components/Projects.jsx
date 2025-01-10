@@ -4,16 +4,20 @@ const Projects = () => {
       <div className="section-container-bar"></div>
       <div className="container-content">
         <h2 className="section-header">projects</h2>
+        <p>A few projects I've worked on over the years.</p>
         <div className="project-section-wrapper">
-          <img
-            className="project-image"
-            src="/project-roam-1080.jpg"
-            alt="screenshot of roam homepage"
-          />
+          <a href="https://app.useroam.io/" target="_blank" className="link">
+            <img
+              className="project-image"
+              src="/project-roam-1080.jpg"
+              alt="screenshot of roam homepage"
+            />
+          </a>
+
           <div className="project-section">
             <h3>
               <a
-                href="https://app.useroam.io/login"
+                href="https://app.useroam.io/"
                 target="_blank"
                 className="link"
               >
@@ -37,11 +41,17 @@ const Projects = () => {
         </div>
         <hr className="horizontal-line"></hr>
         <div className="project-section-wrapper">
-          <img
-            className="project-image"
-            src="/project-mozilla.jpg"
-            alt="screenshot of roam homepage"
-          />
+          <a
+            href="https://www.mozilla.org/en-US/"
+            target="_blank"
+            className="link"
+          >
+            <img
+              className="project-image"
+              src="/project-mozilla.jpg"
+              alt="screenshot of roam homepage"
+            />
+          </a>
           <div className="project-section">
             <h3>
               <a
@@ -64,11 +74,17 @@ const Projects = () => {
         </div>
         <hr className="horizontal-line"></hr>
         <div className="project-section-wrapper">
-          <img
-            className="project-image"
-            src="/project-readme-1080.jpg"
-            alt="screenshot of project readme homepage"
-          />
+          <a
+            href="https://bookapp-capstone.netlify.app/"
+            target="_blank"
+            className="link"
+          >
+            <img
+              className="project-image"
+              src="/project-readme-1080.jpg"
+              alt="screenshot of project readme homepage"
+            />
+          </a>
           <div className="project-section">
             <h3>
               <a
@@ -95,11 +111,17 @@ const Projects = () => {
         </div>
         <hr className="horizontal-line"></hr>
         <div className="project-section-wrapper">
-          <img
-            className="project-image"
-            src="/project-plantpet-1080.jpg"
-            alt="screenshot of project plant pet homepage"
-          />
+          <a
+            href="https://github.com/angelafrancisco/plantpet-react-fe"
+            target="_blank"
+            className="link"
+          >
+            <img
+              className="project-image"
+              src="/project-plantpet-1080.jpg"
+              alt="screenshot of project plant pet homepage"
+            />
+          </a>
           <div className="project-section">
             <h3>
               <a
@@ -123,11 +145,17 @@ const Projects = () => {
         </div>
         <hr className="horizontal-line"></hr>
         <div className="project-section-wrapper">
-          <img
-            className="project-image"
-            src="/project-events-1080.jpg"
-            alt="screenshot of project plant pet homepage"
-          />
+          <a
+            href="https://github.com/ercheung3/event-finder"
+            target="_blank"
+            className="link"
+          >
+            <img
+              className="project-image"
+              src="/project-events-1080.jpg"
+              alt="screenshot of project plant pet homepage"
+            />
+          </a>
           <div className="project-section">
             <h3>
               <a
