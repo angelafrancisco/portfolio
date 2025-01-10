@@ -125,7 +125,7 @@ const Projects = () => {
         <div className="project-section-wrapper">
           <img
             className="project-image"
-            src="/project-plantpet-1080.jpg"
+            src="/project-events-1080.jpg"
             alt="screenshot of project plant pet homepage"
           />
           <div className="project-section">
