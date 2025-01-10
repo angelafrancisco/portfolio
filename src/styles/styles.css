@@ -205,7 +205,7 @@ footer .contact-links {
   border: 3px solid var(--purple);
 }
 
-.work-section-wrapper {
+.project-section-wrapper {
   display: flex;
   flex-direction: column;
   gap: 20px 0;
@@ -223,21 +223,6 @@ footer .contact-links {
   border: 1px solid black;
   border-radius: 5px;
   padding: 5px;
-}
-
-.work-section-bullet-points {
-  padding-left: 15px;
-  padding-top: 10px;
-}
-
-ul.work-section-bullet-points li {
-  font-size: 14px;
-}
-
-.date-text {
-  font-size: 12px;
-  text-transform: uppercase;
-  padding: 5px 0;
 }
 
 .horizontal-line {

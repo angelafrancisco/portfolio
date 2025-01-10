@@ -4,8 +4,8 @@ const Projects = () => {
       <div className="section-container-bar"></div>
       <div className="container-content">
         <h2 className="section-header">projects</h2>
-        <div className="work-section-wrapper">
-          <div className="work-section">
+        <div className="project-section-wrapper">
+          <div className="project-section">
             <h3>Roam: </h3>
             <p>
               <a
@@ -27,8 +27,8 @@ const Projects = () => {
           </div>
         </div>
         <hr className="horizontal-line"></hr>
-        <div className="work-section-wrapper">
-          <div className="work-section">
+        <div className="project-section-wrapper">
+          <div className="project-section">
             <h3>Mozilla: </h3>
             <p>
               <a
