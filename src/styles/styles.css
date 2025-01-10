@@ -42,7 +42,34 @@ nav {
   top: 0;
 }
 
-ul.nav-bar-link-container, ul.contact-links {
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+}
+
+.link::before {
+  content: '';
+  background-color: var(--pink);
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 100%;
+  height: 4px;
+  z-index: -1;
+  transition: all .3s ease-in-out;
+  border-radius: 5px;
+}
+
+.link:hover::before {
+  bottom: 0;
+  height: 100%;
+}
+
+ul.nav-bar-link-container, 
+ul.contact-links {
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -92,32 +119,7 @@ footer .contact-links {
   justify-content: center;
 }
 
-.link {
-  text-decoration: none;
-  color: black;
-  font-weight: 500;
-  position: relative;
-}
-
-.link::before {
-  content: '';
-  background-color: var(--pink);
-  position: absolute;
-  left: 0;
-  bottom: 3px;
-  width: 100%;
-  height: 4px;
-  z-index: -1;
-  transition: all .3s ease-in-out;
-  border-radius: 5px;
-}
-
-.link:hover::before {
-  bottom: 0;
-  height: 100%;
-}
-
-/* .button {
+.button {
   background-color: var(--purple-light);
   color: var(--pink-light);
   font-weight: 600;
@@ -137,7 +139,7 @@ footer .contact-links {
   top: 5px;
   left: 5px;
   cursor: pointer;
-} */
+}
 
 .section-container {
   background: var(--pink-light);
@@ -171,8 +173,6 @@ footer .contact-links {
 .section-header {
   font-family: "Delius", serif;
   font-size: 50px;
-  line-height: 50px;
-  padding-top: 20px;
 }
 
 .header-container {
@@ -185,19 +185,25 @@ footer .contact-links {
 
 .name-header {
   font-family: "Delius", serif;
-  font-size: 40px;
+  font-size: 46px;
 }
 
 @media only screen and (min-width: 1080px) {
   .name-header {
-    font-size: 80px;
+    font-size: 90px;
   }
 }
 
 .name-subheader {
   margin-bottom: 30px;
-  font-size: 20px;
+  font-size: 14px;
   letter-spacing: 10px;
+}
+
+@media only screen and (min-width: 1080px) {
+  .name-subheader {
+    font-size: 20px;
+  }
 }
 
 #about-me-photo {
@@ -208,21 +214,33 @@ footer .contact-links {
 .project-section-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 20px 0;
+  gap: 20px;
+}
+
+@media only screen and (min-width: 1080px) {
+  .project-section-wrapper {
+    flex-direction: row;
+  }
+}
+
+.project-section {
+  display: flex;
+  flex-direction: column;
 }
 
 .stack-bubbles-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 6px;
   margin: 10px 0;
+  list-style-type: none;
 }
 
 .stack-bubble {
-  font-size: 14px;
+  font-size: 12px;
   border: 1px solid black;
   border-radius: 5px;
-  padding: 5px;
+  padding: 3px;
 }
 
 .horizontal-line {
@@ -230,4 +248,14 @@ footer .contact-links {
   border: 1px dotted var(--purple);
   border-radius: 5px;
   opacity: 70%;
+}
+
+.bold-font {
+  font-weight: 600;
+}
+
+.project-image {
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
 }

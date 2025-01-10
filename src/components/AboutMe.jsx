@@ -5,10 +5,9 @@ const AboutMe = () => {
       <div className="container-content">
         <h2 className="section-header">about me</h2>
         <p>
-          Hi, I'm Angela! I'm a full-stack software engineer.
-        </p>
-        <p>
-          I strive to use my knowledge for social good and hold community at the center of my work.
+          Hi, I'm Angela! I'm a <span className="bold-font">full-stack software engineer</span> based
+          in Minneapolis. I strive to use my knowledge for social good and hold community at the
+          center of my work.
         </p>
         <p>
           Offline, you'll find me reading fantasy books, exploring my
